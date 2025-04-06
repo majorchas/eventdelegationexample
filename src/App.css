@@ -28,6 +28,17 @@
   color: #61dafb;
 }
 
+.Row {
+  display: table;
+  width: 100%; /*Optional*/
+  table-layout: fixed; /*Optional*/
+  border-spacing: 10px; /*Optional*/
+}
+
+button{
+  margin:2%
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
